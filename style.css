@@ -1,0 +1,545 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+hr {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    background-image: url(./img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 100%;
+    margin-bottom: 200px;
+}
+
+nav {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.logo {
+    cursor: pointer;
+    box-sizing: content-box;
+}
+
+.lol {
+    font-weight: 600;
+    color: #F4683F;
+    margin-right: 6.5px;
+}
+
+.kazan {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-right: 37px;
+}
+
+.Каталог {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #F4683F;
+    border-radius: 200em;
+    padding: 10px 20px;
+    border: none;
+    margin-right: 124px;
+}
+
+.kazan2 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.pubg {
+    color: #fff;
+    font-size: 16px;
+}
+
+.nav-txt {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.mr-9 {
+    margin-right: 9.5px;
+}
+
+.mr-30 {
+    margin-right: 30.16px;
+}
+
+.fa-heart {
+    margin-right: 24.16px;
+    font-size: 20.5px;
+}
+
+.fa-magnifying-glass {
+    margin-right: 9.69px;
+}
+
+.Показать {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 12px;
+    color: #7B7B7B;
+    text-align: end;
+}
+
+.txt1 {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-top: 63px;
+    margin-bottom: 30px;
+}
+
+.txt12 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-bottom: 100px;
+}
+
+.бассейном {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 14px;
+    margin-bottom: 72px;
+}
+
+.card1 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.far-brands {
+    font-size: 30px;
+    color: #c0c2d7;
+    cursor: pointer;
+    margin-right: 23.5px;
+    margin-bottom: 117px;
+}
+
+.form-card {
+    background: #FFFFFF;
+    border-radius: 20px;
+    width: 360px;
+    margin-left: 175px;
+    margin-top: 80px;
+}
+
+.txtts1 {
+    font-weight: 600;
+    font-size: 14px;
+    color: #444444;
+    margin-left: 60px;
+    margin-right: 95px;
+    margin-top: 59px;
+    margin-bottom: 9px;
+}
+
+.txtts2 {
+    font-weight: 600;
+    font-size: 14px;
+    color: #444444;
+    margin-top: 59px;
+    margin-bottom: 9px;
+}
+
+.form-inputs {
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-bottom: 20px;
+}
+
+.dead-pool {
+    font-weight: 600;
+    font-size: 14px;
+    color: #C0C2D7;
+    padding: 8px 100px 11px 20px;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.border-one {
+    border: 1px solid #C0C2D7;
+    border-radius: 200px;
+    border-end-end-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.border-two {
+    border: 1px solid #C0C2D7;
+    border-radius: 200px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.txts1 {
+    font-weight: 600;
+    font-size: 14px;
+    color: #444444;
+    margin-left: 60px;
+    margin-bottom: 9px;
+}
+
+.form-bottom {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.form-bottom-input {
+    background: #FFFFFF;
+    border: 1px solid #C0C2D7;
+    border-radius: 200px;
+    padding: 9px 0 10px 20px;
+    width: 100%;
+}
+
+.Найти {
+    background: #F4683F;
+    border-radius: 200px;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 110px 13px 110px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.нас {
+    font-weight: 800;
+    font-size: 36px;
+    color: #333333;
+    margin-bottom: 50px;
+}
+
+.three {
+    font-size: 35px;
+    color: #f4683f;
+    margin-bottom: 20px;
+}
+
+.icon-card-txt {
+    font-weight: 600;
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 200px;
+}
+
+.text {
+    font-weight: 800;
+    font-size: 36px;
+    color: #333333;
+    margin-bottom: 50px;
+}
+
+.sect1-card {
+    background: #FFFFFF;
+    box-shadow: 1px 1px 60px rgba(15, 19, 22, 0.2);
+    border-radius: 20px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.sect1-card:hover {
+    box-shadow: 1px 1px 50px #f4683f;
+}
+
+.icon {
+    color: #f4683f;
+    font-size: 35px;
+    margin-right: 17px;
+}
+
+.poragraf {
+    font-weight: 600;
+    font-size: 14px;
+    color: #333333;
+}
+
+.Найти2 {
+    background: #F4683F;
+    border-radius: 200px;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 13px 0 13px 0;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-bottom: 200px;
+}
+
+.heading-text {
+    font-weight: 800;
+    font-size: 36px;
+    color: #333333;
+    margin-bottom: 50px;
+}
+
+.accordion-button {
+    font-weight: 800;
+    font-size: 22px;
+    color: #333333;
+}
+
+.mb-form {
+    margin-bottom: 200px;
+}
+
+main {
+    background-image: url(./img/bg_photo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+}
+
+.Хотите {
+    margin-top: 239px;
+    font-weight: 800;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.Оставьте {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.заявку {
+    margin-top: 50px;
+    padding: 12px 50.5px;
+    background: #F4683F;
+    border: none;
+    border-radius: 200px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 304px;
+}
+
+footer {
+    background: linear-gradient(180deg, #161723 0%, #161723 109.24%);
+}
+
+.logore {
+    width: 182px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 126px;
+}
+
+.euaeiu {
+    font-weight: 500;
+    font-size: 12px;
+    color: #404256;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.defa1 {
+    font-weight: 800;
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-bottom: 17px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.defa {
+    font-weight: 600;
+    font-size: 14px;
+    color: #C0C2D7;
+    margin-bottom: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.fafeae {
+    font-weight: 600;
+    font-size: 14px;
+    color: #C0C2D7;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 575px) {
+    .pubg {
+        margin-right: 25px;
+    }
+
+    .txt1 {
+        font-weight: 800;
+        font-size: 40px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        margin: 0;
+        margin-bottom: 22px;
+    }
+
+    .txt12 {
+        font-weight: 600;
+        font-size: 18px;
+        text-align: center;
+        margin: 0;
+        color: #FFFFFF;
+    }
+
+    .Найти {
+        font-weight: 600;
+        font-size: 18px;
+        text-align: center;
+        color: #FFFFFF;
+        background: #F4683F;
+        border-radius: 200px;
+        width: 100%;
+    }
+
+    .icon-card-txt {
+        margin-bottom: 40px;
+    }
+
+    header {
+        margin-bottom: 70px;
+    }
+
+    .Найти {
+        padding: 0;
+        padding-top: 13px;
+        padding-bottom: 15px;
+    }
+
+    .нас {
+        font-weight: 800;
+        font-size: 26px;
+        color: #333333;
+        margin-bottom: 30px;
+    }
+
+    .text {
+        font-weight: 800;
+        font-size: 26px;
+        color: #333333;
+    }
+
+    .sect1-card {
+        padding: 30px;
+        margin-bottom: 20px;
+    }
+
+    .Найти2 {
+        margin-bottom: 30px;
+    }
+
+    .heading-text {
+        font-weight: 800;
+        font-size: 26px;
+        color: #333333;
+    }
+
+    .accordion-button {
+        font-weight: 800;
+        font-size: 16px;
+        color: #333333;
+    }
+
+    .mb-form {
+        margin-bottom: 57px;
+    }
+
+    .Хотите {
+        font-weight: 800;
+        font-size: 26px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 327px;
+    }
+
+    .Оставьте {
+        font-weight: 600;
+        font-size: 14px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .заявку {
+        font-weight: 600;
+        font-size: 16px;
+        text-align: center;
+        color: #FFFFFF;
+        background: #F4683F;
+        border-radius: 200px;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 50px;
+    }
+
+    main {
+        background-position: 50% 50%;
+    }
+
+    .logore {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .footer-txts {
+        margin-bottom: 40px;
+    }
+}
